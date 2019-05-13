@@ -1,0 +1,2 @@
+# javascript
+dasar dasar javascript
