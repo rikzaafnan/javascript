@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Belajar Javascript</title>
+</head>
+
+<body>
+    <h1>Belajar Javascript</h1>
+    <p>belajar mengenal <b>DOM</b> di Javascript</p>
+    <input type="text" class="middle" name="namadepan" id="namadepan" value="Alivia">
+    <input type="text" class="middle" name="namabelakang" id="namabelakang" value="Putri">
+
+    <button type="button" onclick=jalanscript()>Jalan</button>
+    <script>
+        function panggiljavascript() {
+            console.log("menulikan code javascript di browser secara internal")
+        }
+
+        function panggiljs() {
+            console.log("function ke 2")
+        }
+
+        function jalanscript() {
+            console.log(document.querySelectorAll('.middle'))
+        }
+
+        panggiljavascript()
+        panggiljs()
+    </script>
+</body>
+
+</html>
